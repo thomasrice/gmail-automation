@@ -1,4 +1,4 @@
-# Gmail Automation
+# Google Calendar Automation
 
 Adding many meetings to Google Calendar is a pain, particularly if the meetings are in multiple timezones.
 
@@ -11,10 +11,13 @@ This script makes it easier by letting you create meetings from a simple text fi
 3. Copy meetings.txt.example to meetings.txt
 4. Create a project in Google Developer Console and download the credentials by following steps 1 and 2 in https://karenapp.io/articles/how-to-automate-google-calendar-with-python-using-the-calendar-api/
 
+Save the credentials as 'credentials.json', or the filename you've specified in settings.py.
 
 # Modifying settings.py
 
 Modify settings.py to set the primary calendar meetings will be added to, your default timezone, and whether dates like 02/03/2022 should default to date first (2 March 2022, instead of 3 February 2022).
+
+To check your calendar names, run: python check_calendars.py
 
 # Modifying meetings.txt
 
@@ -58,10 +61,6 @@ The first line of the meeting text will be interpreted as the title, but will be
 # Adding meetings
 
 To add meetings: python add_meetings.py
-
-# Check calendar names
-
-To check your calendar names (to add to settings.py): python check_calendars.py
 
 
 
