@@ -62,7 +62,6 @@ The first line of the meeting text will be interpreted as the title, but will be
 
 To add meetings: python add_meetings.py
 
+# About
 
-
-# Timezone names
-https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+Created by <a href="https://www.thomasrice.com/">Thomas Rice</a> to ease the pain of adding lots of meetings in other timezones to Google Calendar.
