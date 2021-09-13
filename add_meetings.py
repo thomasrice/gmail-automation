@@ -136,17 +136,7 @@ class Parser(object):
             'basil': 10,
             'tomato': 11
         }
-        self.timezone_shortcuts = {
-            'hk': 'Asia/Hong_Kong',
-            'sydney': 'Australia/Sydney',
-            'nyc': 'America/New_York',
-            'sf': 'America/Los_Angeles',
-            'la': 'America/Los_Angeles',
-            'tokyo': 'Asia/Tokyo',
-            'london': 'Europe/London',
-            'paris': 'Europe/Paris',
-            'warsaw': 'Europe/Warsaw'
-        }
+        self.timezone_shortcuts = settings.TIMEZONE_SHORTCUTS
         self.line_number = 0
         self.first_meeting = True
 

@@ -32,7 +32,10 @@ You can set variables by starting a line with these keywords then a value:
 
 **Timezone:**
 The timezone of the meeting in the TZ format listed in https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-There are shortcuts for HK, Sydney, NYC, LA, SF, Tokyo, London, Paris, and Warsaw.
+
+Timezone shortcuts have been added for: HK, Sydney, NYC, LA, SF, Tokyo, London, Paris, and Warsaw.
+
+More timezone shortcuts can be added to the settings.py file.
 
 **Color:** or **Colour:**
 The colour of the meeting in Google Calendar.
@@ -64,9 +67,42 @@ You can also use @ as a shortcut for When, like this:
 Any text after **When:** that isn't a property or a comment is interpreted as the meeting text.
 The first line of the meeting text will be interpreted as the title, but will be added to the description as well.
 
+Example meetings.txt file:
+
+    ## REQUIRED SETTINGS ##########################################################
+
+    # Timezone: HK, Sydney, NYC, LA, SF, Tokyo, London, Paris, Warsaw
+    # ...or any from https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+    Timezone: London
+
+    # Colors: Lavender, Sage, Grape, Flamingo, Banana, Tangerine, Peacock, Graphite, Bluberry, Basil, Tomato
+    Color: Blueberry
+
+    # Pretitle will be added before any meetings if set
+    Pretitle: AI & Big Data Expo -
+
+    # Minutes will carry over from previous settings
+    Minutes: 30
+
+    ## ADD MEETINGS HERE ##########################################################
+
+    When: 13/9/21 9:30am
+    VIRTUAL PRESENTATION: Driving Business Value with Big Data and AI: A Case for Pilot-First Enterprise AI Projects
+    For every success story, there are numerous examples of failure to implement and scale AI. Misalignment between leadership and technologists, an unclear understanding of what’s possible, or the lack of organizational support can drive organizations to a never-ending PoC cycle. It prevents them from harnessing AI’s actual potential value.
+    In this session, we will explore the technological and use case landscape of AI projects. We will also explore a pilot-first approach to maximize the scalability of enterprise AI projects.
+    Sebastian Santibanez, Director of Advanced Technologies, SoftServe
+
+    When: 10am
+    Minutes: 20
+    VIRTUAL PRESENTATION: AI Opportunity & Issues in a Safety Critical Environment
+    How do you introduce a technology like AI into a working environment where one wrong decision could result in catastrophic disaster?!
+    The session will explore the issues of bringing AI into safety a critical process like steel making but also explore the huge opportunities this technology delivers to improve production and aid with decarbonisation of the industry.
+    Alisdair Walton, Data, Cloud & Innovation Lead - UK , Tata Steel
+
+
 # Adding meetings
 
-To add meetings: python add_meetings.py
+To add meetings, modify meetings.txt then run: python add_meetings.py
 
 # About
 
