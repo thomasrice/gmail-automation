@@ -1,0 +1,11 @@
+# Name of the Google calendar to add meetings to
+CALENDAR = 'primary'
+
+# Saved Google credentials filename
+CREDENTIALS = 'credentials.json'
+
+# Default timezone
+DEFAULT_TIMEZONE = 'Australia/Sydney'
+
+# Use day first in when interpreting dates, e.g. 02/03/2022 means 2 March 2022
+DAYFIRST = True

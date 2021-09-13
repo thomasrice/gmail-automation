@@ -1,0 +1,51 @@
+## REQUIRED SETTINGS ##########################################################
+
+# Timezone: HK, Sydney, NYC, LA, SF, Tokyo, London, Paris, Warsaw
+# ...or any from https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+Timezone: London
+
+# Colors: Lavender, Sage, Grape, Flamingo, Banana, Tangerine, Peacock, Graphite, Bluberry, Basil, Tomato
+Color: Blueberry
+
+# Pretitle will be added before any meetings if set
+Pretitle: AI & Big Data Expo -
+
+# Minutes will carry over from previous settings
+Minutes: 30
+
+## ADD MEETINGS HERE ##########################################################
+
+When: 13/9/21 9:30am
+VIRTUAL PRESENTATION: Driving Business Value with Big Data and AI: A Case for Pilot-First Enterprise AI Projects
+For every success story, there are numerous examples of failure to implement and scale AI. Misalignment between leadership and technologists, an unclear understanding of what’s possible, or the lack of organizational support can drive organizations to a never-ending PoC cycle. It prevents them from harnessing AI’s actual potential value.
+In this session, we will explore the technological and use case landscape of AI projects. We will also explore a pilot-first approach to maximize the scalability of enterprise AI projects.
+Sebastian Santibanez, Director of Advanced Technologies, SoftServe
+
+When: 10am
+Minutes: 20
+VIRTUAL PRESENTATION: AI Opportunity & Issues in a Safety Critical Environment
+How do you introduce a technology like AI into a working environment where one wrong decision could result in catastrophic disaster?!
+The session will explore the issues of bringing AI into safety a critical process like steel making but also explore the huge opportunities this technology delivers to improve production and aid with decarbonisation of the industry.
+Alisdair Walton, Data, Cloud & Innovation Lead - UK , Tata Steel
+
+When: 10:20am
+Minutes: 30
+VIRTUAL PRESENTATION: Building a Sustainable Digital Infrastructure for AI and Big Data
+Why is it important to consider sustainability when looking at digital services and infrastructure.
+What are the key considerations and opportunities
+How Bulk helped a UK based Fintech deliver a sustainable AI platform and significantly reduce cost at the same time.
+Rob Elder, VP Data Centres , Bulk Infrastructure Group
+
+When: 14/9/21 10am
+Minutes: 20
+VIRTUAL PRESENTATION: Building a holistic city-wide data ecosystem
+Dubai Data has taken a 4-pronged approach to this ensuring we do not miss out any key component:
+Data Governance, Data Infrastructure, Public-Private Partnerships and most importantly Use Case Development and Value Generation.
+Sara Al Zarooni, Director, Data Management & Compliance Affairs, Dubai Data Establishment, Dubai Digital
+
+When: 10:20am
+VIRTUAL PRESENTATION: Boosting e-commerce performance with predictive data analytics
+Is it worth it? Understanding the value of data analytics for e-commerce
+Evaluating and optimising the customer journey to purchase
+The potential of predictive analytics for customer relationships online
+Gabriel Hughes, CEO, Metageni
