@@ -47,11 +47,17 @@ How long the meeting goes for in minutes.
 
 **When:**
 When the meeting is. Since meetings inherit date and time from the previous meeting, you can have a series of meetings like this and it will get the daet right:
-When: 14/9/21 11:50am
-When: 3pm
-When: 5pm
-When: 15/9/21 9am
-When: 4pm
+    
+    When: 14/9/21 11:50am
+    When: 3pm
+    When: 5pm
+    When: 15/9/21 9am
+    When: 4pm
+
+You can also use @ as a shortcut for When, like this:
+    
+    @3pm
+    @15/9/21 9am
 
 ## Meeting text
 

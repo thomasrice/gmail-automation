@@ -208,14 +208,6 @@ class Parser(object):
             self.update_property(prop, value)
             return
 
-        if line.rstrip() == '!NEW' and 0:
-            self.meetings.append(self.working_meeting)
-            new_meeting = copy.copy(self.working_meeting)
-            new_meeting.summary = ''
-            new_meeting.description = ''
-            self.working_meeting = new_meeting
-            return
-
         # If we're here, add to description
         self.working_meeting.description = self.working_meeting.description + line + '\n'
         return
